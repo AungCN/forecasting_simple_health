@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_percentage_error
 
 LAG = 10
 st.set_page_config(page_title="Health Forecasting", layout="wide")
-st.title("📈 Forecasting Tool for Health Commodities (No LSTM)")
+st.title("📈 Forecasting Tool for Health Commodities")
 
 # Upload CSV
 file = st.file_uploader("Upload CSV with 'Date' and 'Consumption' columns", type="csv")
